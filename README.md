@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+Spreadsheet App (React + TypeScript + Tailwind CSS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **front-end spreadsheet interface**, built using **React**, **TypeScript**, and **Tailwind CSS**. 
+It replicates a Google Sheets or Excel-like layout as per the [Figma design](https://www.figma.com/design/3nywpu5sz45RrCmwe68QZP/Intern-Design-Assigment?node-id=2-2535&t=DJGGMt8I4fiZjoIB-1) shared for the React Intern Assignment.
 
-## Available Scripts
+The goal is to demonstrate strong UI development skills, pixel-perfect design, interactive components, and clean code architecture.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+Live Demo
+https://spreadsheetin.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Pixel-perfect layout** based on the given Figma design
+- Spreadsheet-like experience using a table/grid
+- Built with **React**, **TypeScript**, and **Tailwind CSS**
+- All buttons and tabs are interactive (log to console)
+- Strict TypeScript for better maintainability
+- Zero external state management libraries
+- Passes `eslint` and `tsc` checks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+##  Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Tool           | Description                            |
+|----------------|----------------------------------------|
+| React          | JavaScript library for building UI     |
+| TypeScript     | Strongly-typed superset of JavaScript  |
+| Tailwind CSS   | Utility-first CSS framework            |
+| react-table    | (Optional) Table/grid rendering library|
+| ESLint + Prettier | Code linting and formatting         |
+| CRA (Create React App) | Boilerplate setup tool         |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ensure you have:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Node.js (v14 or newer)
+- npm or yarn installed globally
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+Clone the repository and install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/yourusername/spreadsheet-app.git
+cd spreadsheet-app
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To start the development server:
+bash
+npm start
+
+Script	Description
+npm start-	Runs the app in development mode
+npm run  -build	Builds the app for production
+npm run lint -	Runs ESLint to check code style
+npm run type-check	- Runs TypeScript in noEmit mode
+npm test -	(Optional) Run tests
+
+
+![Screenshot 2025-07-07 230133](https://github.com/user-attachments/assets/16af218f-3e08-45b0-9313-05741e88b7eb)
