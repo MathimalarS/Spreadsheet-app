@@ -66,5 +66,5 @@ npm run lint -	Runs ESLint to check code style
 npm run type-check	- Runs TypeScript in noEmit mode
 npm test -	(Optional) Run tests
 
-![Screenshot](./Screenshot/preview.jpg)
+![Screenshot](./Screenshots/preview.png)
 
