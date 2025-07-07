@@ -69,4 +69,4 @@ npm test -	(Optional) Run tests
 ```
 ![preview](https://github.com/user-attachments/assets/fc7c1da5-2888-4180-bc0e-4fd32d929ec7)
 
-
+**Additionally I've added filtering in the status, when you click all orders it shows all five, according to the button clicked it shows!**
